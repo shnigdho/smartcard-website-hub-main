@@ -111,16 +111,7 @@ const Navbar: React.FC = () => {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          {/* <Link 
-            to="/" 
-            className="flex items-center"
-            onClick={closeDropdown}
-          >
-            <span className="text-xl font-bold tracking-tighter text-primary">
-              SmartCard<span className="text-blue-500">Tech</span>
-            </span>
-          </Link> */}
+         
 
 
 <Link 
@@ -210,9 +201,14 @@ const Navbar: React.FC = () => {
       >
         <div className="flex flex-col h-full overflow-y-auto">
           <div className="flex items-center justify-between p-4 border-b">
-            <Link to="/" className="text-xl font-bold" onClick={() => setMobileMenuOpen(false)}>
-              SmartCard<span className="text-blue-500">Tech</span>
-            </Link>
+          <Link 
+  to="/" 
+  className="flex items-center"
+  onClick={closeDropdown}
+>
+<img src="/logo.png" alt="Company Logo" className="h-10 w-auto" />
+
+</Link>
             <button
               className="p-2 text-gray-600 hover:text-gray-900 focus:outline-none"
               onClick={() => setMobileMenuOpen(false)}
