@@ -233,19 +233,19 @@ const Footer: React.FC = () => {
                 <li className="flex items-start">
                   <MapPin className="mr-3 text-gray-400 flex-shrink-0 mt-1" size={18} />
                   <span className="text-gray-400 text-sm">
-                    123 Smart Card Avenue, Tech City, TC 12345
+                    376/B, Uttarkhan (Muktar Bari), Shah Kabir Mazhar Road, Uttarkhan, Dhaka-1230 Bangladesh.
                   </span>
                 </li>
                 <li className="flex items-center">
                   <Phone className="mr-3 text-gray-400 flex-shrink-0" size={18} />
                   <a href="tel:+11234567890" className="text-gray-400 hover:text-white transition-colors text-sm">
-                    +1 (123) 456-7890
+                    +8801861678838
                   </a>
                 </li>
                 <li className="flex items-center">
                   <Mail className="mr-3 text-gray-400 flex-shrink-0" size={18} />
                   <a href="mailto:info@smartcardtech.com" className="text-gray-400 hover:text-white transition-colors text-sm">
-                    info@smartcardtech.com
+                    info@galaxytech.com.bd
                   </a>
                 </li>
               </ul>
