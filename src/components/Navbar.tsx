@@ -2,6 +2,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, Menu, X } from 'lucide-react';
+import logo from "/assets/logo.png";
+
 
 interface DropdownItem {
   title: string;
@@ -110,7 +112,7 @@ const Navbar: React.FC = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link 
+          {/* <Link 
             to="/" 
             className="flex items-center"
             onClick={closeDropdown}
@@ -118,7 +120,21 @@ const Navbar: React.FC = () => {
             <span className="text-xl font-bold tracking-tighter text-primary">
               SmartCard<span className="text-blue-500">Tech</span>
             </span>
-          </Link>
+          </Link> */}
+
+
+<Link 
+  to="/" 
+  className="flex items-center"
+  onClick={closeDropdown}
+>
+<img src="/logo.png" alt="Company Logo" className="h-10 w-auto" />
+
+</Link>
+
+
+
+          
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-1">
