@@ -342,6 +342,37 @@ const Index = () => {
         ctaLink="/products/rfid-solutions"
         backgroundColor="bg-white"
       />
+      <InfoSection
+        title="Seamless RFID Integration"
+        subtitle="CONTACTLESS TECHNOLOGY"
+        description="Our RFID solutions provide contactless identification and data collection capabilities that streamline operations and enhance user experience. From access control to inventory management, our technology enables quick, reliable, and secure transactions without physical contact."
+        image={smartsimcardImage} // Use the new imported image
+        imageAlt="RFID Solutions"
+        ctaText="Discover RFID Solutions"
+        ctaLink="/products/rfid-solutions"
+        backgroundColor="bg-white"
+      />
+      <InfoSection
+        title="Seamless RFID Integration"
+        subtitle="CONTACTLESS TECHNOLOGY"
+        description="Our RFID solutions provide contactless identification and data collection capabilities that streamline operations and enhance user experience. From access control to inventory management, our technology enables quick, reliable, and secure transactions without physical contact."
+        image={smartsimcardImage} // Use the new imported image
+        imageAlt="RFID Solutions"
+        imagePosition="left"
+        ctaText="Discover RFID Solutions"
+        ctaLink="/products/rfid-solutions"
+        backgroundColor="bg-white"
+      />
+      <InfoSection
+        title="Seamless RFID Integration"
+        subtitle="CONTACTLESS TECHNOLOGY"
+        description="Our RFID solutions provide contactless identification and data collection capabilities that streamline operations and enhance user experience. From access control to inventory management, our technology enables quick, reliable, and secure transactions without physical contact."
+        image={smartsimcardImage} // Use the new imported image
+        imageAlt="RFID Solutions"
+        ctaText="Discover RFID Solutions"
+        ctaLink="/products/rfid-solutions"
+        backgroundColor="bg-white"
+      />
 
       <Footer />
     </div>
