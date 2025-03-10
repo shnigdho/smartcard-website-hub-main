@@ -5,6 +5,7 @@ import InfoSection from '../components/InfoSection';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
+
 const Index = () => {
   // Add scroll animations
   useEffect(() => {
@@ -88,7 +89,7 @@ const Index = () => {
         title="Next-Generation Smart Card Technology"
         subtitle="ADVANCED SECURITY"
         description="Our smart cards utilize state-of-the-art chip technology and encryption methods to provide unmatched security for your identification and access control needs. Each card is designed with multiple authentication factors and tamper-evident features to protect critical data and prevent unauthorized use."
-        image="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070"
+        image="src/assets/smartcard.jpg"
         imageAlt="Smart Card Technology"
         ctaText="Explore Smart Card Solutions"
         ctaLink="/products/smart-cards"

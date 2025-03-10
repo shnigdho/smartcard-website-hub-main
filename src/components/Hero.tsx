@@ -2,33 +2,40 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+// Import the images
+import smartcardImage from '../assets/smartcard.jpg';
+import smartsimcardImage from '../assets/smartsimcard.jpg';
+import bankingcardImage from '../assets/bankingcard.jpg';
+import membershipcardImage from '../assets/membershipcard.jpg';
+import scratchcardImage from '../assets/scratchcard.jpg';
+
 const SLIDES = [
   {
-    image: "src/assets/smartcard.jpg",
+    image: smartcardImage, // Use the imported image
     title: "Innovative Smart Cards",
     description: "Secure and customizable smart card solutions for various applications.",
     cta: { text: "Explore Smart Cards", link: "/products/smart-cards" },
   },
   {
-    image: "src/assets/smartsimcard.jpg",
+    image: smartsimcardImage, // Use the imported image
     title: "Advanced SIM Card Technology",
     description: "Reliable and secure SIM cards designed for seamless connectivity.",
     cta: { text: "Learn More", link: "/products/sim-cards" },
   },
   {
-    image: "src/assets/bankingcard.jpg",
+    image: bankingcardImage, // Use the imported image
     title: "Secure Banking Cards",
     description: "Top-tier banking cards ensuring secure transactions and financial operations.",
     cta: { text: "View Banking Cards", link: "/products/banking-cards" },
   },
   {
-    image: "src/assets/membershipcard.jpg",
+    image: membershipcardImage, // Use the imported image
     title: "Exclusive Membership Cards",
     description: "Custom membership cards to enhance brand identity and customer loyalty.",
     cta: { text: "Get Your Membership Card", link: "/products/membership-cards" },
   },
   {
-    image: "src/assets/scratchcard.jpg",
+    image: scratchcardImage, // Use the imported image
     title: "Premium Scratch Cards",
     description: "Scratch cards designed for secure and promotional use cases.",
     cta: { text: "Discover Scratch Cards", link: "/products/scratch-cards" },
