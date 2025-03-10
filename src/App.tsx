@@ -25,6 +25,9 @@ import Consulting from "./pages/services/Consulting";
 import Maintenance from "./pages/services/Maintenance";
 import CustomSolutions from "./pages/services/CustomSolutions";
 
+// Import the Navbar component
+import Navbar from "./components/Navbar"; // Adjust the path as needed
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -33,6 +36,8 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        {/* Add the Navbar here */}
+        <Navbar />
         <Routes>
           <Route path="/" element={<Index />} />
           
