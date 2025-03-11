@@ -13,7 +13,7 @@ const NAV_ITEMS = [
       { title: 'RFID Solutions', path: '/products/rfid-solutions' },
       { title: 'Membership Cards', path: '/products/membership-cards' },
       { title: 'Scratch Cards', path: '/products/scratch-cards' },
-      { title: 'Access Control', path: '/products/access-control' },
+      { title: 'Sim Cards', path: '/products/sim-cards' },
     ],
   },
   {

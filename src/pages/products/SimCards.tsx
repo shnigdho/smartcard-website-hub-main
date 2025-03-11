@@ -14,7 +14,7 @@ const AccessControl = () => {
       <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-b from-red-50 to-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Access Control</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Sim Cards</h1>
             <p className="text-xl text-gray-600">
               Comprehensive systems combining smart cards, readers, and software for secure facility and resource access management.
             </p>

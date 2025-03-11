@@ -65,7 +65,7 @@ const Products = () => {
     },
     {
       id: 5,
-      title: 'Access Control',
+      title: 'SIM Cards',
       path: '/products/access-control',
       icon: <Shield className="text-red-600" size={24} />,
       description: 'Comprehensive systems combining smart cards, readers, and software for secure facility and resource access management.',

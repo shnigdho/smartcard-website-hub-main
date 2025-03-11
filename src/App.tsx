@@ -16,7 +16,7 @@ import SmartCards from "./pages/products/SmartCards";
 import RfidSolutions from "./pages/products/RfidSolutions";
 import MembershipCards from "./pages/products/MembershipCards";
 import ScratchCards from "./pages/products/ScratchCards";
-import AccessControl from "./pages/products/AccessControl";
+import SimCards from "./pages/products/SimCards";
 
 // Service Pages
 import CardPersonalization from "./pages/services/CardPersonalization";
@@ -47,7 +47,7 @@ const App = () => (
           <Route path="/products/rfid-solutions" element={<RfidSolutions />} />
           <Route path="/products/membership-cards" element={<MembershipCards />} />
           <Route path="/products/scratch-cards" element={<ScratchCards />} />
-          <Route path="/products/access-control" element={<AccessControl />} />
+          <Route path="/products/sim-cards" element={<SimCards />} />
           
           {/* Service Routes */}
           <Route path="/services" element={<Services />} />
