@@ -69,7 +69,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="heading-md mb-8">Get in Touch</h2>
+              <h2 className="heading-md mb-8">Connect</h2>
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">
