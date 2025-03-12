@@ -9,11 +9,11 @@ const NAV_ITEMS = [
     title: 'Products',
     path: '/products',
     dropdown: [
-      { title: 'Smart Cards', path: '/products/smart-cards' },
-      { title: 'RFID Solutions', path: '/products/rfid-solutions' },
-      { title: 'Membership Cards', path: '/products/membership-cards' },
       { title: 'Scratch Cards', path: '/products/scratch-cards' },
       { title: 'Sim Cards', path: '/products/sim-cards' },
+      { title: 'Smart Cards', path: '/products/smart-cards' },
+      { title: 'Payment Cards', path: '/products/payment-cards' },
+      { title: 'Other Cards', path: '/products/other-cards' },
     ],
   },
   {

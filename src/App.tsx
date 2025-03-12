@@ -12,11 +12,11 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 // Product Pages
-import SmartCards from "./pages/products/SmartCards";
-import RfidSolutions from "./pages/products/RfidSolutions";
-import MembershipCards from "./pages/products/MembershipCards";
-import ScratchCards from "./pages/products/ScratchCards";
+import ScratchCards from "./pages/products/ScratchCards"; 
 import SimCards from "./pages/products/SimCards";
+import SmartCards from "./pages/products/SmartCards";
+import PaymentCards from "./pages/products/PaymentCards";
+import OtherCards from "./pages/products/OtherCards";
 
 // Service Pages
 import CardPersonalization from "./pages/services/CardPersonalization";
@@ -43,11 +43,11 @@ const App = () => (
           
           {/* Product Routes */}
           <Route path="/products" element={<Products />} />
-          <Route path="/products/smart-cards" element={<SmartCards />} />
-          <Route path="/products/rfid-solutions" element={<RfidSolutions />} />
-          <Route path="/products/membership-cards" element={<MembershipCards />} />
           <Route path="/products/scratch-cards" element={<ScratchCards />} />
           <Route path="/products/sim-cards" element={<SimCards />} />
+          <Route path="/products/smart-cards" element={<SmartCards />} />
+          <Route path="/products/payment-cards" element={<PaymentCards />} />
+          <Route path="/products/other-cards" element={<OtherCards />} />
           
           {/* Service Routes */}
           <Route path="/services" element={<Services />} />

@@ -3,20 +3,20 @@ import React from 'react';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
 import { Link } from 'react-router-dom';
-import { Layers, ChevronRight } from 'lucide-react';
+import { Shield, ChevronRight } from 'lucide-react';
 
-const MembershipCards = () => {
+const AccessControl = () => {
   return (
     <div className="page-transition min-h-screen flex flex-col">
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-b from-green-50 to-white">
+      <section className="pt-32 pb-16 md:pt-40 md:pb-24 bg-gradient-to-b from-red-50 to-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Membership Cards</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Sim Cards</h1>
             <p className="text-xl text-gray-600">
-              Personalized cards with integrated technology for loyalty programs, club memberships, and organization access.
+              Comprehensive systems combining smart cards, readers, and software for secure facility and resource access management.
             </p>
           </div>
         </div>
@@ -27,23 +27,23 @@ const MembershipCards = () => {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                <Layers className="text-green-600" size={24} />
+              <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-6">
+                <Shield className="text-red-600" size={24} />
               </div>
-              <h2 className="text-3xl font-bold mb-6">Customized Membership Solutions</h2>
+              <h2 className="text-3xl font-bold mb-6">Integrated Security Solutions</h2>
               <p className="text-gray-600 mb-4">
-                Our membership cards are fully customizable to reflect your brand identity while incorporating the latest in smart card technology for enhanced functionality.
+                Our access control systems provide comprehensive security for your facilities, combining smart card technology with advanced readers and management software.
               </p>
               <p className="text-gray-600 mb-6">
-                From design to production, we offer end-to-end solutions that can integrate with your existing membership management systems or help you build a new program from the ground up.
+                From single-door solutions to enterprise-wide systems, we offer scalable options that can grow with your organization while maintaining the highest security standards.
               </p>
               
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3">Design Options:</h3>
+                <h3 className="text-xl font-semibold mb-3">System Components:</h3>
                 <ul className="space-y-2">
-                  {['Custom graphics and branding', 'Multiple material choices', 'Specialty finishes and effects', 'Sustainable eco-friendly options'].map((feature, i) => (
+                  {['Smart card credentials', 'Secure card readers', 'Door controllers', 'Management software', 'Monitoring systems'].map((feature, i) => (
                     <li key={i} className="flex items-start">
-                      <ChevronRight className="text-green-600 mr-2 flex-shrink-0 mt-1" size={18} />
+                      <ChevronRight className="text-red-600 mr-2 flex-shrink-0 mt-1" size={18} />
                       <span>{feature}</span>
                     </li>
                   ))}
@@ -52,8 +52,8 @@ const MembershipCards = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070" 
-                alt="Membership Cards" 
+                src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070" 
+                alt="Access Control" 
                 className="rounded-lg shadow-lg w-full"
               />
             </div>
@@ -61,20 +61,20 @@ const MembershipCards = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-20 lg:flex-row-reverse">
             <div className="order-first lg:order-last">
-              <h2 className="text-3xl font-bold mb-6">Loyalty Program Integration</h2>
+              <h2 className="text-3xl font-bold mb-6">Advanced Features</h2>
               <p className="text-gray-600 mb-4">
-                Transform your customer engagement with integrated loyalty programs that track purchases, award points, and deliver personalized rewards.
+                Our access control systems go beyond simple door locks, offering advanced security features and integration capabilities that enhance your overall security posture.
               </p>
               <p className="text-gray-600 mb-6">
-                Our membership card solutions include easy-to-use management software that provides valuable analytics on member behavior and program performance.
+                With real-time monitoring, detailed reporting, and flexible permission management, you have complete control over who enters your facilities and when.
               </p>
               
               <div className="mb-6">
-                <h3 className="text-xl font-semibold mb-3">Loyalty Features:</h3>
+                <h3 className="text-xl font-semibold mb-3">Security Capabilities:</h3>
                 <ul className="space-y-2">
-                  {['Points accumulation and redemption', 'Tiered membership levels', 'Personalized offers and rewards', 'Birthday and anniversary recognition', 'Integration with POS systems'].map((app, i) => (
+                  {['Multi-factor authentication', 'Time-based access restrictions', 'Anti-passback prevention', 'Visitor management', 'Emergency lockdown procedures'].map((app, i) => (
                     <li key={i} className="flex items-start">
-                      <ChevronRight className="text-green-600 mr-2 flex-shrink-0 mt-1" size={18} />
+                      <ChevronRight className="text-red-600 mr-2 flex-shrink-0 mt-1" size={18} />
                       <span>{app}</span>
                     </li>
                   ))}
@@ -83,8 +83,8 @@ const MembershipCards = () => {
             </div>
             <div className="order-last lg:order-first relative">
               <img 
-                src="https://images.unsplash.com/photo-1556742031-c6961e8560b0?q=80&w=2070" 
-                alt="Loyalty Program" 
+                src="https://images.unsplash.com/photo-1545161296-d9c2c9f607c3?q=80&w=2070" 
+                alt="Advanced Security" 
                 className="rounded-lg shadow-lg w-full"
               />
             </div>
@@ -96,43 +96,43 @@ const MembershipCards = () => {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center mb-12">
-            <h2 className="text-3xl font-bold mb-6">Membership Card Applications</h2>
+            <h2 className="text-3xl font-bold mb-6">Access Control Applications</h2>
             <p className="text-gray-600">
-              Our membership cards are adaptable to a wide range of organizations and purposes.
+              Our access control systems can be deployed across a wide range of environments and applications.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">Retail & Hospitality</h3>
+              <h3 className="text-xl font-semibold mb-3">Corporate Facilities</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Store loyalty programs</li>
-                <li>• Restaurant membership clubs</li>
-                <li>• Hotel rewards cards</li>
-                <li>• Shopping mall VIP passes</li>
-                <li>• Entertainment venue memberships</li>
+                <li>• Office buildings</li>
+                <li>• Data centers</li>
+                <li>• Research facilities</li>
+                <li>• Manufacturing plants</li>
+                <li>• Corporate campuses</li>
               </ul>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">Clubs & Associations</h3>
+              <h3 className="text-xl font-semibold mb-3">Government & Public</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Sports club memberships</li>
-                <li>• Professional associations</li>
-                <li>• Alumni organizations</li>
-                <li>• Community groups</li>
-                <li>• Exclusive clubs</li>
+                <li>• Government buildings</li>
+                <li>• Educational institutions</li>
+                <li>• Healthcare facilities</li>
+                <li>• Transportation hubs</li>
+                <li>• Utilities infrastructure</li>
               </ul>
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">Corporate & Education</h3>
+              <h3 className="text-xl font-semibold mb-3">Commercial & Retail</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Employee ID badges</li>
-                <li>• Corporate benefits cards</li>
-                <li>• Student ID cards</li>
-                <li>• Library memberships</li>
-                <li>• Campus access cards</li>
+                <li>• Retail locations</li>
+                <li>• Hotels and hospitality</li>
+                <li>• Entertainment venues</li>
+                <li>• Multi-tenant buildings</li>
+                <li>• Residential complexes</li>
               </ul>
             </div>
           </div>
@@ -144,15 +144,15 @@ const MembershipCards = () => {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              Ready to launch your membership program?
+              Ready to enhance your security?
             </h2>
             <p className="text-xl text-gray-300 mb-8">
-              Contact our team today to discuss your membership card requirements and discover how we can help increase customer loyalty and engagement.
+              Contact our team today to discuss your access control requirements and discover the right solution for your organization.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link 
                 to="/contact" 
-                className="bg-green-600 hover:bg-green-700 text-white py-3 px-8 rounded-lg font-medium transition-colors duration-200"
+                className="bg-red-600 hover:bg-red-700 text-white py-3 px-8 rounded-lg font-medium transition-colors duration-200"
               >
                 Get in Touch
               </Link>
@@ -172,4 +172,4 @@ const MembershipCards = () => {
   );
 };
 
-export default MembershipCards;
+export default AccessControl;
