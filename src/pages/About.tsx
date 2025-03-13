@@ -3,6 +3,9 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Award, Shield, Users, Clock, Globe, Heart } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+
+
 
 const About = () => {
   return (
@@ -10,16 +13,30 @@ const About = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-b from-gray-100 to-white">
-        <div className="container-custom">
+      <section className="relative pt-32 pb-20 overflow-hidden">
+        <div className="absolute inset-0 bg-blue-600 opacity-5 skew-y-3 transform origin-top-right"></div>
+        <div className="container-custom relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="heading-xl mb-6">About SmartCardTech</h1>
-            <p className="text-lg text-gray-600 mb-8">
+            <span className="inline-block px-4 py-1 mb-6 bg-blue-100 text-blue-600 rounded-full text-sm font-semibold">Our Company</span>
+            <h1 className="text-4xl md:text-5xl lg:text-3xl font-bold mb-6 bg-gradient-to-r from-blue-700 to-purple-600 bg-clip-text text-transparent">Galaxy Technology (Bangladesh) Limited</h1>
+            <p className="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed">
               We're a dedicated team of smart card technology experts committed to providing innovative solutions that enhance security, streamline operations, and improve user experiences.
             </p>
+            <div className="flex justify-center space-x-4">
+              <button className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg flex items-center transition-all shadow-lg hover:shadow-xl">
+                Contact Us <ArrowRight size={16} className="ml-2" />
+              </button>
+              <button className="px-6 py-3 border border-blue-600 text-blue-600 hover:bg-blue-50 rounded-lg transition-all">
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
       </section>
+
+
+
+      
 
       {/* Our Story Section */}
       <section className="py-16 bg-white">
@@ -27,19 +44,19 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="heading-lg mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-4">
-                Founded in 2010, SmartCardTech began with a mission to revolutionize identification and access control systems through advanced smart card technology. What started as a small team of engineers has grown into a comprehensive solution provider serving clients worldwide.
+              <p className="text-gray-600 mb-6">
+                GALAXY TECHNOLOGY (BANGLADESH) LIMITED is a high-tech joint-Venture company specialized in developing , manufacturing and marketing of SIM, Smart Card & Scratch Card products in Bangladesh and abroad in order to fulfil the future rising demand of Chip based Smart Card for Telecome, Banking different GOVT. ID Card projects and Transportation Sectors. We are established in 2016 based in Dhaka, Bangladesh. Through the summation of hard work, high skilled industry professionals and continuous innovation, will try to win the excellence reputation as one of the high quality and trusted suppliers in Smart Card and Scratch Card industry.
               </p>
-              <p className="text-gray-600 mb-4">
-                Over the years, we've expanded our expertise to encompass the full spectrum of smart card applications, from secure identification to payment systems and beyond. Our journey has been marked by continuous innovation and a commitment to exceeding customer expectations.
+              <p className="text-gray-600 mb-6">
+                We will support a wide range of Smart Card products for Mobile Operators, Banks, BMET, BRTA Driving License etc. and at the same time will maintain our product quality, goods service and endless innovation to cope up with the market's needs & preference.
               </p>
               <p className="text-gray-600">
-                Today, we're proud to be at the forefront of smart card technology, helping organizations of all sizes implement secure, efficient, and user-friendly card systems that meet their unique needs.
+                In future we can perceive tha digital Bangladesh will require different comprehensive eco system for digital cities where security and identification ill bethe challenge and will try to expand our resources and R&D to support Smart Technologies to create multiple entities to integrate together to perform in a comprehensive platform in order join the movement for digitalization and development of the country as a whole.
               </p>
             </div>
             <div className="relative">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070" 
+                src="" 
                 alt="SmartCardTech team" 
                 className="rounded-lg shadow-lg w-full"
               />
