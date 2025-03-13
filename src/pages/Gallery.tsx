@@ -3,6 +3,13 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { X } from 'lucide-react';
+import './Gallery.css'
+import pictureImage1 from '../assets/picture1.jpg';
+import pictureImage2 from '../assets/picture2.jpg';
+import pictureImage3 from '../assets/picture3.jpg';
+import pictureImage4 from '../assets/picture4.jpg';
+import pictureImage5 from '../assets/picture5.jpg';
+import pictureImage6 from '../assets/picture6.jpg';
 
 interface GalleryItem {
   id: number;
@@ -11,6 +18,10 @@ interface GalleryItem {
   image: string;
   description: string;
 }
+
+
+
+
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<GalleryItem | null>(null);
@@ -77,7 +88,7 @@ const Gallery = () => {
       id: 9,
       title: 'Event Access Cards',
       category: 'rfid',
-      image: 'https://images.unsplash.com/photo-1617994679330-58dab36963ef?q=80&w=2070',
+      image: 'https://images.unsplash.com/photo-1617994679330-58dab36963ef?q=80&w=207',
       description: 'RFID event access cards for a major conference, enabling attendee tracking, session authorization, and interactive exhibit engagement.'
     }
   ];
