@@ -30,67 +30,46 @@ const Gallery = () => {
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      title: 'Smart Card Implementation',
-      category: 'smart-cards',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070',
+      title: 'Corporate Office',
+      // category: 'smart-cards',
+      image: pictureImage1, //
       description: 'Enterprise-level smart card deployment for a multinational corporation, providing secure access control across multiple locations.'
     },
     {
       id: 2,
-      title: 'RFID Access System',
-      category: 'rfid',
-      image: 'https://images.unsplash.com/photo-1617994679330-58dab36963ef?q=80&w=2070',
+      title: 'Factory Backward',
+      // category: 'rfid',
+      image: pictureImage2,
       description: 'RFID-based access control system implemented at a high-security facility, ensuring authorized personnel entry while maintaining detailed access logs.'
     },
     {
       id: 3,
-      title: 'Membership Card Design',
-      category: 'membership',
-      image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070',
+      title: 'Workshop',
+      // category: 'membership',
+      image: pictureImage3,
       description: 'Custom-designed membership cards for a premium fitness club chain, featuring brand-aligned aesthetics and integrated payment functionality.'
     },
     {
       id: 4,
       title: 'Scratch Card Production',
-      category: 'scratch-cards',
-      image: 'https://images.unsplash.com/photo-1639322537228-f710d846310a?q=80&w=2232',
+      // category: 'scratch-cards',
+      image: pictureImage4,
       description: 'High-security scratch card production for a national lottery, incorporating multiple anti-counterfeiting measures and secure code generation.'
     },
     {
       id: 5,
       title: 'Corporate ID Solution',
-      category: 'smart-cards',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070',
+      // category: 'smart-cards',
+      image: pictureImage5,
       description: 'Integrated corporate ID solution featuring employee identification, access control, and cafeteria payment functions in a single smart card.'
     },
     {
       id: 6,
-      title: 'RFID Inventory System',
-      category: 'rfid',
-      image: 'https://images.unsplash.com/photo-1617994679330-58dab36963ef?q=80&w=2070',
+      title: 'Embeded machine system',
+      // category: 'rfid',
+      image: pictureImage6,
       description: 'RFID-based inventory management system for a retail chain, enabling real-time stock monitoring and automated reordering processes.'
     },
-    {
-      id: 7,
-      title: 'Loyalty Program Cards',
-      category: 'membership',
-      image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?q=80&w=2070',
-      description: 'Custom loyalty program cards for a hotel chain, featuring tiered membership levels and integrated rewards tracking.'
-    },
-    {
-      id: 8,
-      title: 'University ID System',
-      category: 'smart-cards',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=2070',
-      description: 'Comprehensive campus card solution for a university, providing library access, meal plans, and building entry in a single smart card.'
-    },
-    {
-      id: 9,
-      title: 'Event Access Cards',
-      category: 'rfid',
-      image: 'https://images.unsplash.com/photo-1617994679330-58dab36963ef?q=80&w=207',
-      description: 'RFID event access cards for a major conference, enabling attendee tracking, session authorization, and interactive exhibit engagement.'
-    }
   ];
 
   const filters = [
