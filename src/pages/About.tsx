@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { Award, Shield, Users, Clock, Globe, Heart } from 'lucide-react';
 import { ArrowRight } from 'lucide-react';
+import companyImage from "../assets/company.jpg";
 
 
 
@@ -56,13 +57,13 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="" 
+                src={companyImage} 
                 alt="SmartCardTech team" 
                 className="rounded-lg shadow-lg w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-blue-600 text-white py-4 px-6 rounded-lg shadow-lg">
-                <p className="font-semibold">Established 2010</p>
-                <p className="text-sm text-blue-100">13+ years of excellence</p>
+                <p className="font-semibold">Established 2016</p>
+                <p className="text-sm text-blue-100">8+ years of excellence</p>
               </div>
             </div>
           </div>
