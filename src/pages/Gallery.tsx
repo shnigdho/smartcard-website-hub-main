@@ -31,42 +31,42 @@ const Gallery = () => {
     {
       id: 1,
       title: 'Corporate Office',
-      // category: 'smart-cards',
+      category: 'smart-cards',
       image: pictureImage1, //
       description: 'Enterprise-level smart card deployment for a multinational corporation, providing secure access control across multiple locations.'
     },
     {
       id: 2,
       title: 'Factory Backward',
-      // category: 'rfid',
+      category: 'rfid',
       image: pictureImage2,
       description: 'RFID-based access control system implemented at a high-security facility, ensuring authorized personnel entry while maintaining detailed access logs.'
     },
     {
       id: 3,
       title: 'Workshop',
-      // category: 'membership',
+      category: 'membership',
       image: pictureImage3,
       description: 'Custom-designed membership cards for a premium fitness club chain, featuring brand-aligned aesthetics and integrated payment functionality.'
     },
     {
       id: 4,
       title: 'Scratch Card Production',
-      // category: 'scratch-cards',
+      category: 'scratch-cards',
       image: pictureImage4,
       description: 'High-security scratch card production for a national lottery, incorporating multiple anti-counterfeiting measures and secure code generation.'
     },
     {
       id: 5,
       title: 'Corporate ID Solution',
-      // category: 'smart-cards',
+      category: 'smart-cards',
       image: pictureImage5,
       description: 'Integrated corporate ID solution featuring employee identification, access control, and cafeteria payment functions in a single smart card.'
     },
     {
       id: 6,
       title: 'Embeded machine system',
-      // category: 'rfid',
+      category: 'rfid',
       image: pictureImage6,
       description: 'RFID-based inventory management system for a retail chain, enabling real-time stock monitoring and automated reordering processes.'
     },
